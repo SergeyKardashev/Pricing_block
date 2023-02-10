@@ -1,0 +1,172 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 137px;
+}
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  color: #161d25;
+}
+.subtitle {
+  margin: 0;
+  padding: 13px 0 0 0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: #5d7085;
+}
+.pricecards {
+  width: 1082px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.pricecard {
+  width: 266px;
+  height: 600px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.pricecard_plan_personal {
+  background: linear-gradient(180deg, #fdc624 0%, #e6c434 99.36%);
+}
+
+.pricecard_plan_business {
+  background: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+}
+
+.pricecard_plan_developer {
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+}
+
+.pricecard_plan_agency {
+  background: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+}
+
+.price-card__image-box {
+  width: 196px;
+  height: 165px;
+}
+
+.price-card__image {
+  margin-top: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricecard__header {
+  margin: 15px 0 0 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: white;
+}
+
+.pricecard__subheader {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: white;
+}
+
+.pricecard__pricetag {
+  display: flex;
+  margin-top: 28px;
+}
+
+.pricecard__currentcy {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  position: relative;
+  /* top: 20px; */
+}
+
+.pricecard__price {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 67px;
+  font-weight: 700;
+  line-height: 79px;
+  text-align: left;
+  color: white;
+}
+
+.pricecard__feature-list {
+  margin: 0;
+  padding: 0;
+}
+
+.pricecard__feature-item {
+  margin: 0;
+  margin-top: 17px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.pricecard__feature-item-checkmark {
+  height: 8px;
+  width: 10px;
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+  /* background-image: url(./images/checkmark.svg); */
+}
+
+.pricecard__feature-item-text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: white;
+}
+
+.pricecard__button {
+  margin: auto auto 0 auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  width: 196px;
+  /* height: 40px; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+}
