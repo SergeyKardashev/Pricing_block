@@ -14,7 +14,19 @@
       <h1 class="title">Pricing built for businesses of all sizes.</h1>
       <p class="subtitle">Always know what you’ll pay.</p>
       <ul class="pricecards">
-        <li class="pricecard pricecard_plan_personal">
+        <!-- 
+          HOW TO 
+          add/remove label "Most Popular and recolor button 
+          by replacing pricecard__popular to pricecard__regular 
+        -->
+
+        <!-- #1 personal -->
+
+        <li class="pricecard pricecard_plan_personal pricecard__popular">
+          <div class="pricecard__label">
+            <img src="./images/star.svg" alt="star icon" />
+            <div class="pricecard__label-text">Most Popular</div>
+          </div>
           <div class="price-card__image-box">
             <img
               class="price-card__image price-card__image_plan_personal"
@@ -32,9 +44,21 @@
             <li class="pricecard__feature-item">Free domain</li>
             <li class="pricecard__feature-item">Monthyl Bandwidth 1GB</li>
           </ul>
-          <div class="pricecard__button">Start Free Trial</div>
+          <div class="pricecard__button pricecard__button_variant_outlined">
+            Start Free Trial
+          </div>
+          <div class="pricecard__button pricecard__button_variant_contained">
+            Start Free Trial
+          </div>
         </li>
-        <li class="pricecard pricecard_plan_business">
+
+        <!-- # 2 business -->
+
+        <li class="pricecard pricecard_plan_business pricecard__regular">
+          <div class="pricecard__label">
+            <img src="./images/star.svg" alt="star icon" />
+            <div class="pricecard__label-text">Most Popular</div>
+          </div>
           <div class="price-card__image-box">
             <img
               class="price-card__image price-card__image_plan_business"
@@ -53,9 +77,17 @@
             <li class="pricecard__feature-item">Monthyl Bandwidth 1GB</li>
             <li class="pricecard__feature-item">SSD Storage 1TB</li>
           </ul>
-          <div class="pricecard__button">Start Free Trial</div>
+          <div class="pricecard__button pricecard__button_variant_outlined">
+            Start Free Trial
+          </div>
+          <div class="pricecard__button pricecard__button_variant_contained">
+            Start Free Trial
+          </div>
         </li>
-        <li class="pricecard pricecard_plan_developer">
+
+        <!-- # 3 developer -->
+
+        <li class="pricecard pricecard_plan_developer pricecard__regular">
           <div class="pricecard__label">
             <img src="./images/star.svg" alt="star icon" />
             <div class="pricecard__label-text">Most Popular</div>
@@ -79,11 +111,21 @@
             <li class="pricecard__feature-item">SSD Storage 1TB</li>
             <li class="pricecard__feature-item">SSL Certificate</li>
           </ul>
-          <div class="pricecard__button pricecard__button_highlited">
+          <div class="pricecard__button pricecard__button_variant_contained">
+            Start Free Trial
+          </div>
+          <div class="pricecard__button pricecard__button_variant_outlined">
             Start Free Trial
           </div>
         </li>
+
+        <!-- #4 agency -->
+
         <li class="pricecard pricecard_plan_agency">
+          <div class="pricecard__label">
+            <img src="./images/star.svg" alt="star icon" />
+            <div class="pricecard__label-text">Most Popular</div>
+          </div>
           <div class="price-card__image-box">
             <img
               class="price-card__image price-card__image_plan_agency"
@@ -103,7 +145,9 @@
             <li class="pricecard__feature-item">SSD Storage 1TB</li>
             <li class="pricecard__feature-item">SSL Certificate</li>
           </ul>
-          <div class="pricecard__button">Start Free Trial</div>
+          <div class="pricecard__button pricecard__button_variant_outlined">
+            Start Free Trial
+          </div>
         </li>
       </ul>
     </section>
