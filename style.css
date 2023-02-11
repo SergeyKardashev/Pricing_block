@@ -222,7 +222,7 @@
   border: 2px solid white;
   border-radius: 3px;
   transition-property: transform;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
   transition-timing-function: linear;
 }
 
