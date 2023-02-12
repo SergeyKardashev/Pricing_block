@@ -1,0 +1,8 @@
+.pricing-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 137px;
+  padding-bottom: 190px;
+}

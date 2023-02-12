@@ -1,0 +1,11 @@
+.pricecard__currentcy {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  position: relative;
+  /* top: 20px; */
+}

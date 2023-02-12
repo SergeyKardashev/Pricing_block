@@ -1,0 +1,10 @@
+.pricecard__feature-item {
+  margin: 0;
+  margin-top: 17px;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: white;
+}

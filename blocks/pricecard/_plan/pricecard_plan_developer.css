@@ -1,0 +1,7 @@
+.pricecard_plan_developer {
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+}
+
+.pricecard_plan_developer .pricecard__button_variant_contained {
+  color: #3dacfc;
+}

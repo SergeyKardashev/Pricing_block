@@ -1,0 +1,9 @@
+.pricecard {
+  width: 266px;
+  height: 600px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+}

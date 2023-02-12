@@ -1,0 +1,6 @@
+.pricecard__feature-list {
+  margin: 0;
+  padding: 0;
+  list-style-image: url(../../../images/checkmark.svg);
+  list-style-position: inside;
+}

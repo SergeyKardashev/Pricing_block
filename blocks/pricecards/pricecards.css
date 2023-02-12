@@ -1,0 +1,8 @@
+.pricecards {
+  width: 1082px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 68px;
+  display: flex;
+  justify-content: space-between;
+}

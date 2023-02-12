@@ -1,0 +1,23 @@
+.pricecard__button {
+  margin: auto auto 0 auto;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  width: 196px;
+  height: 40px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 3px;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.pricecard__button:hover {
+  cursor: pointer;
+  transform: translate(0px, 5px) scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 5px 30px;
+}

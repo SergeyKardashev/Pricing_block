@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/pricecard/pricecard.css);
+@import url(../blocks/pricecard/__button/pricecard__button.css);
+@import url(../blocks/pricecard/__button/_variant/pricecard__button_variant_contained.css);
+@import url(../blocks/pricecard/__button/_variant/pricecard__button_variant_outlined.css);
+@import url(../blocks/pricecard/__currentcy/pricecard__currentcy.css);
+@import url(../blocks/pricecard/__feature-item/pricecard__feature-item.css);
+@import url(../blocks/pricecard/__feature-list/pricecard__feature-list.css);
+@import url(../blocks/pricecard/__header/pricecard__header.css);
+@import url(../blocks/pricecard/__image/pricecard__image.css);
+@import url(../blocks/pricecard/__image/_plan/pricecard__image_plan_agency.css);
+@import url(../blocks/pricecard/__image/_plan/pricecard__image_plan_business.css);
+@import url(../blocks/pricecard/__image/_plan/pricecard__image_plan_developer.css);
+@import url(../blocks/pricecard/__image/_plan/pricecard__image_plan_personal.css);
+@import url(../blocks/pricecard/__image-box/pricecard__image-box.css);
+@import url(../blocks/pricecard/__label/pricecard__label.css);
+@import url(../blocks/pricecard/__label-text/pricecard__label.css);
+@import url(../blocks/pricecard/__popular/pricecard__popular.css);
+@import url(../blocks/pricecard/__price/pricecard__price.css);
+@import url(../blocks/pricecard/__pricetag/pricecard__pricetag.css);
+@import url(../blocks/pricecard/__subheader/pricecard__subheader.css);
+@import url(../blocks/pricecard/_plan/pricecard_plan_agency.css);
+@import url(../blocks/pricecard/_plan/pricecard_plan_business.css);
+@import url(../blocks/pricecard/_plan/pricecard_plan_developer.css);
+@import url(../blocks/pricecard/_plan/pricecard_plan_personal.css);
+@import url(../blocks/pricecard/_popularity/pricecard_popularity_popular.css);
+@import url(../blocks/pricecard/_popularity/pricecard_popularity_regular.css);
+
+@import url(../blocks/pricecards/pricecards.css);
+
+@import url(../blocks/pricing-section/pricing-section.css);
+
+@import url(../blocks/subtitle/subtitle.css);
+
+@import url(../blocks/title/title.css);

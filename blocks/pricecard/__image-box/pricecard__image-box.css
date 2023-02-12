@@ -1,0 +1,8 @@
+.pricecard__image-box {
+  width: 196px;
+  height: 165px;
+  position: relative;
+  display: flex;
+  align-self: flex-end;
+  /* outline: 1px solid black; */
+}

@@ -1,0 +1,10 @@
+.pricecard__label-text {
+  color: white;
+  /* margin: 0 auto; */
+  padding: 0;
+  padding-left: 5px;
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
