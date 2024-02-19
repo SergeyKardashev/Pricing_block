@@ -1,4 +1,5 @@
 # Pricing_block #
+[Открыть результат на gh-pages](https://sergeykardashev.github.io/Pricing_block/)
 ## Practicing frontend ##
 ### Just a block in the middle of nowhere ###
 This block about pricing is a separate figma layout for handoff. 
